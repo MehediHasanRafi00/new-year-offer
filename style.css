@@ -80,3 +80,27 @@ body {
 .party-img {
 padding-right: 135px;
 }
+
+/* party info style */
+
+.party-info{
+    text-align: center;
+    padding: 100px 345px;
+    margin-top: 120px;
+}
+.party-info p{
+    font-size:  32px ;
+    font-weight: 600;
+}
+.party-info p span{
+color: #FF0000;
+}
+
+.party-info button {
+    font-size: 20px;
+    color: white;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: none;
+}
