@@ -1,28 +1,82 @@
-body{
-    max-width: 1320px;
-    margin: 0 auto;
+body {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 /* banner  */
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-image: url(images/Rectangle\ 15.png), url(images/Banner\ Image.png);
-    background-blend-mode: normal;
-    
-    height: 600px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(images/Rectangle\ 15.png), url(images/Banner\ Image.png);
+  background-blend-mode: normal;
+  height: 600px;
 }
 
-.banner h5 {
-    font-size: 32px;
-    color: white;
-    margin: 0;
+.banner h4 {
+  font-size: 32px;
+  color: white;
+  margin: 0;
 }
 .banner h2 {
-    margin: 0;
-    font-size: 72px;
-    color: white;
+  font-size: 72px;
+  color: white;
+  margin-top: 16px;
+}
+
+/* holiday deals style*/
+
+.holiday-deals {
+  text-align: center;
+  padding-top: 120px;
+}
+.holiday-deals h2 {
+  font-size: 85px;
+  color: #ff0000;
+  font-weight: 900;
+}
+.holiday-deals h5 {
+  font-size: 24px;
+  color: #ff0000;
+}
+.holiday-deals h3 {
+  font-size: 48px;
+  color: #070211;
+  font-weight: bold;
+  margin: 0;
+}
+.holiday-deals img {
+  max-width: 800px;
+  margin-top: 45px;
+}
+
+/* midnight party style*/
+.midnight-party {
+  display: flex;
+  align-items: center;
+  background-image: url(images/Vectorrr.png);
+  
+  height: 600px;
+  
+}
+.party-descripson{
+    padding: 0 120px 0 40px  ;
+}
+.party-descripson h2 {
+  font-size: 64px;
+  font-weight: bolder;
+  color: white;
+}
+.party-descripson p {
+  font-size: 18px;
+  color: white;
+}
+.party-descripson h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.party-img {
+padding-right: 135px;
 }
