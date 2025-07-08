@@ -38,6 +38,7 @@ body {
 }
 .holiday-deals h5 {
   font-size: 24px;
+  font-weight: 500;
   color: #ff0000;
 }
 .holiday-deals h3 {
@@ -103,4 +104,47 @@ color: #FF0000;
     background-color: #FF0000;
     border-radius: 8px;
     border: none;
+}
+
+/* upcoming offer style */
+
+.upcoming-offer {
+    display: flex;
+    align-items: center;
+}
+
+.best-offer-info{
+    max-width: 390px;
+}
+.best-offer-info h5{
+      font-size: 24px;
+      font-weight: 500;
+      color: #FF0000;
+}
+.best-offer-info h2{
+      font-size: 48px;
+      font-weight: bolder;
+      
+}
+.best-offer-info p{
+      font-size: 20px;
+      
+}
+.celebration-img {
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    margin: 0 70px;
+}
+.celebration-img img{
+    padding: 40px;
+}
+
+.celebration-text h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.celebration-text p{
+    font-size: 20px;
+    
 }
