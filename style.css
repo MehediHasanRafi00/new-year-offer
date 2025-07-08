@@ -121,7 +121,7 @@ color: #FF0000;
       font-weight: 500;
       color: #FF0000;
 }
-.best-offer-info h2{
+.best-offer-info h3{
       font-size: 48px;
       font-weight: bolder;
       
@@ -147,4 +147,44 @@ color: #FF0000;
 .celebration-text p{
     font-size: 20px;
     
+}
+
+/* holidays sale style*/
+
+.holidays-sale-info {
+    text-align: center;
+    
+}
+.holidays-sale-info h5 {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.holidays-sale-info h1 {
+    font-size: 72px;
+    font-weight: bolder;
+}
+.holidays-sale-info h1 span{
+    color: #FF0000;
+}
+.holidays-sale-info p{
+    font-size: 20px;
+    padding: 0 150px;
+}
+
+.holidays-sale-img {
+    padding-top: 65px;
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.box-img{
+    width: 670px;
+    padding-left: 100px;
+}
+.discount-img {
+    width: 220px;
+    position: relative;
+    bottom: 250px;
+    left: 350px;
 }
