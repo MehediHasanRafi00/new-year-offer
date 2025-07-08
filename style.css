@@ -1,0 +1,28 @@
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* banner  */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(images/Rectangle\ 15.png), url(images/Banner\ Image.png);
+    background-blend-mode: normal;
+    
+    height: 600px;
+
+}
+
+.banner h5 {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+}
+.banner h2 {
+    margin: 0;
+    font-size: 72px;
+    color: white;
+}
