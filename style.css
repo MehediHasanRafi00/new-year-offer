@@ -58,6 +58,7 @@ main,header {
   align-items: center;
   background-image: url(images/Vectorrr.png);
 
+  margin-top: 120px;
   height: 600px;
 }
 .party-descripson {
@@ -210,9 +211,11 @@ main,header {
 /* newsleter style */
 .newsleter-section{
     margin-top: 120px;
+    
 }
 .newsleter {
   text-align: center;
+  padding-bottom: 50px;
 }
 .newsleter {
   background-color: rgba(255, 0, 0, 0.05);
@@ -253,6 +256,7 @@ footer{
     background-color: #070211;
 }
 .footer{
+  margin-top: 120px;
     padding: 0 281px;
     font-size: 24px;
     font-weight: 500;
