@@ -1,4 +1,4 @@
-body {
+main,header {
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -57,12 +57,11 @@ body {
   display: flex;
   align-items: center;
   background-image: url(images/Vectorrr.png);
-  
+
   height: 600px;
-  
 }
-.party-descripson{
-    padding: 0 120px 0 40px  ;
+.party-descripson {
+  padding: 0 120px 0 40px;
 }
 .party-descripson h2 {
   font-size: 64px;
@@ -79,112 +78,203 @@ body {
   color: white;
 }
 .party-img {
-padding-right: 135px;
+  padding-right: 135px;
 }
 
 /* party info style */
 
-.party-info{
-    text-align: center;
-    padding: 100px 345px;
-    margin-top: 120px;
+.party-info {
+  text-align: center;
+  padding: 100px 345px;
+  margin-top: 120px;
 }
-.party-info p{
-    font-size:  32px ;
-    font-weight: 600;
+.party-info p {
+  font-size: 32px;
+  font-weight: 600;
 }
-.party-info p span{
-color: #FF0000;
+.party-info p span {
+  color: #ff0000;
 }
 
 .party-info button {
-    font-size: 20px;
-    color: white;
-    padding: 16px 32px;
-    background-color: #FF0000;
-    border-radius: 8px;
-    border: none;
+  font-size: 20px;
+  color: white;
+  padding: 16px 32px;
+  background-color: #ff0000;
+  border-radius: 8px;
+  border: none;
 }
 
 /* upcoming offer style */
 
 .upcoming-offer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
 }
 
-.best-offer-info{
-    max-width: 390px;
+.best-offer-info {
+  max-width: 390px;
 }
-.best-offer-info h5{
-      font-size: 24px;
-      font-weight: 500;
-      color: #FF0000;
+.best-offer-info h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
 }
-.best-offer-info h3{
-      font-size: 48px;
-      font-weight: bolder;
-      
+.best-offer-info h3 {
+  font-size: 48px;
+  font-weight: bolder;
 }
-.best-offer-info p{
-      font-size: 20px;
-      
+.best-offer-info p {
+  font-size: 20px;
 }
 .celebration-img {
-    border: 10px solid #FF0000;
-    border-radius: 50%;
-    margin: 0 70px;
+  border: 10px solid #ff0000;
+  border-radius: 50%;
+  margin: 0 70px;
 }
-.celebration-img img{
-    padding: 40px;
+.celebration-img img {
+  padding: 40px;
 }
 
-.celebration-text h3{
-    font-size: 48px;
-    font-weight: bold;
-    color: #FF0000;
+.celebration-text h3 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
 }
-.celebration-text p{
-    font-size: 20px;
-    
+.celebration-text p {
+  font-size: 20px;
 }
 
 /* holidays sale style*/
 
 .holidays-sale-info {
-    text-align: center;
-    
+  text-align: center;
+  margin-top: 120px;
 }
 .holidays-sale-info h5 {
-    font-size: 24px;
-    font-weight: 500;
-
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
 }
 .holidays-sale-info h1 {
-    font-size: 72px;
-    font-weight: bolder;
+  font-size: 72px;
+  font-weight: bolder;
+  margin: 20px 0;
 }
-.holidays-sale-info h1 span{
-    color: #FF0000;
+.holidays-sale-info h1 span {
+  color: #ff0000;
 }
-.holidays-sale-info p{
-    font-size: 20px;
-    padding: 0 150px;
+.holidays-sale-info p {
+  font-size: 20px;
+  padding: 0 150px;
 }
 
 .holidays-sale-img {
-    padding-top: 65px;
-    background-image: url(images/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+  padding-top: 65px;
+  background-image: url(images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-.box-img{
-    width: 670px;
-    padding-left: 100px;
+.box-img {
+  width: 670px;
+  padding-left: 100px;
 }
 .discount-img {
-    width: 220px;
-    position: relative;
-    bottom: 250px;
-    left: 350px;
+  width: 220px;
+  position: relative;
+  bottom: 250px;
+  left: 350px;
+}
+
+/* products style */
+.products {
+  margin-top: 120px;
+}
+.product-info h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+.product-info h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.product-info p {
+  font-size: 20px;
+}
+.product img {
+  margin: 0 13px 13px 0;
+}
+
+/* newsleter style */
+.newsleter-section{
+    margin-top: 120px;
+}
+.newsleter {
+  text-align: center;
+}
+.newsleter {
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.newsleter img{
+    margin-top: 80px;
+}
+.newsleter h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.newsleter p {
+  font-size: 20px;
+  padding: 0 200px;
+}
+.newsleter input[type="email"] {
+  font-size: 18px;
+  padding: 25px 30px;
+  border: none;
+  width: 435px;
+  background-color: white;
+  border-radius: 30px 0 0 30px;
+  
+}
+.newsleter button {
+    
+  color: white;
+  font-size: 20px;
+  background-color: #ff0000;
+  border: none;
+  padding: 24px 56px;
+  border-radius:  0 30px 30px 0;
+}
+
+/* footer style */
+footer{
+    background-color: #070211;
+}
+.footer{
+    padding: 0 281px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 120px 0 50px 0;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 48px 0;
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 120px 0;
 }
